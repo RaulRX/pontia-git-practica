@@ -1,0 +1,1 @@
+Esta práctica consiste en conocer los comandos basicos de git y poder aprender el flujo de trabajo para el versionado de código, tanto a la hora de subir nuevo codigo como realizar acciones automatizadas y acciones de proteccion en el repositorio remoto 
