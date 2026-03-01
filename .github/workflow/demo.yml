@@ -1,0 +1,15 @@
+name: workflow_demo
+on:
+  workflow_dispach:
+    input:
+      message:
+        description: "Insert a message"
+        required: true
+        default: "default message"
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: show-message
+        run: echo "Message received: $(github.event.inputs.message)"
